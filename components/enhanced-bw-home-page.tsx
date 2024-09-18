@@ -169,7 +169,7 @@ export function EnhancedBwHomePage() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {[
                 { name: "Sarah L.", quote: "PrintMaster has transformed my small business. The quality and ease of use are unmatched!" },
-                { name: "Mike R.", quote: "I love how quickly I can create and sell new designs. It's opened up a whole new revenue stream for me." },
+                { name: "Mike R.", quote: "I love how quickly I can create and sell new designs. It&apos;s opened up a whole new revenue stream for me." },
                 { name: "Emily T.", quote: "The global shipping options have allowed me to reach customers I never thought possible. Thank you, PrintMaster!" }
               ].map((testimonial, index) => (
                 <motion.div
@@ -180,7 +180,7 @@ export function EnhancedBwHomePage() {
                 >
                   <Card className="h-full hover:shadow-lg transition-shadow">
                     <CardContent className="p-6">
-                      <p className="text-gray-600 mb-4">"{testimonial.quote}"</p>
+                      <p className="text-gray-600 mb-4">&ldquo;{testimonial.quote}&rdquo;</p>
                       <p className="font-semibold">{testimonial.name}</p>
                     </CardContent>
                   </Card>
